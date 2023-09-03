@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La tua casa: Primo piano</title>
+    <link rel="stylesheet" href="css/floor1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="./img/leva0.webp" type="image/x-icon">
+
+  </head>
+  <style>
+  </style>
+  <body onload="start()">
+    <main>
+        <div class="title animate__animated animate__backInDown">
+            <h1>HOUSECRAFT</h1>
+          </div>
+        <div class="character animate__animated animate__pulse">
+            <img src="./img/steve1.png" alt="">
+        </div>
+        <div class="form animate__animated animate__backInDown">
+            <p id="pha">
+            </p>
+        </div>
+        <div class="house">
+            <!--DIV FOR OPACITY-->
+      <div id="op1"></div>
+      <div id="op2"></div>
+      <div id="op3"></div>
+      <div id="op4"></div>
+      <div id="op5"></div>
+
+      <!--BUTTONS FOR ENABLE DIV-->
+      <img onclick="enable(this)" src="img/leva0.webp" alt="" id="bt1">
+      <img onclick="enable(this)" src="img/leva0.webp" alt="" id="bt2">
+      <img onclick="enable(this)" src="img/leva0.webp" alt="" id="bt3">
+      <img onclick="enable(this)" src="img/leva0.webp" alt="" id="bt4">
+      <img onclick="enable(this)" src="img/leva0.webp" alt="" id="bt5">
+      
+    </div>
+    <a onclick="goTo()" id="boh" href="floor2.html" target="_blank">VAI AL SECONDO PIANO...</a>
+    <h1 id="gr">CASA  </h1>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="floor1.js"></script>
+  </body>
+</html>
